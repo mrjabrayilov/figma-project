@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    gap: 443px;
+}
+
+.header-left {
+    display: flex;
+}
+
+.header-left img {
+    width: 68px;
+    height: 40px; 
+}
+
+.header-left h1 {
+    color: var(--black, #303031);
+    font-size: 32px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: -1.28px; 
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    gap: 400px; 
+}
