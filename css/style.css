@@ -1,13 +1,7 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background: #F9F9F9; } */
 
-.nav-left {
-    display: flex;
-    gap: 8px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 
 .nav-left h1 {
     color: var(--black, #303031);
@@ -59,13 +53,15 @@ header {
     color: #0088a9;
 }
 
-
-*****************
+/* section 1 */
 
 .section-1 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 0px 31px;
+    
 }
 
 
@@ -103,7 +99,6 @@ header {
 }
 
 .section-1 img {
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
     display: flex;
     width: 654.917px;
     height: 720px;
@@ -114,4 +109,182 @@ header {
     flex-shrink: 0; 
 }
 
+/* section 1 */
 
+
+/* section 2 */
+.section-2 {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+
+.section-2 h2 {
+    display: flex;
+    width: 895px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--black, #303031);
+    text-align: center;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.section-2 p {
+    display: flex;
+    width: 895px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--black, #303031);
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+/* section 2 */
+
+
+/* section 3 */
+.section-3 {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 5% 0px 2% 0px;
+}
+
+.section-3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section-3 div {
+    width: 427px;
+    height: 340px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.section-3 div img {
+    width: 104px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+.section-3 div h3 {
+    color: var(--black, #303031);
+    text-align: center;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.section-3 div p {
+    display: flex;
+    width: 379px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--black, #303031);
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 26px;
+}
+/* section 3 */
+
+
+/* section 4 */
+.section-4 {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+
+.section-4 .left-section {
+    
+}
+
+.section-4 .left-section img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background: var(--light-gold, #F3F0EA);
+}
+
+.section-4 .left-section h2 {
+    display: flex;
+    width: 644px;
+    flex-direction: column;
+    color: var(--black, #303031);
+    font-size: 48px;
+    font-family: Roboto;    
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.section-4 .left-section p {
+    display: flex;
+width: 644px;
+flex-direction: column;
+color: var(--black, #303031);
+font-size: 18px;
+font-family: Roboto;
+line-height: 26px;
+letter-spacing: -0.36px;
+}
+
+.section-4 .right-section {
+    width: 484px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 4px solid var(--black, #303031);
+background: var(--white, #FFF);
+padding: 2%;
+}
+
+.section-4 .right-section img {
+    width: 78px;
+    height: 94px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+}
+
+.section-4 .right-section ul li {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.section-4 .right-section ul li div h4 {
+    color: var(--black, #303031);
+font-size: 24px;
+font-family: Roboto;
+font-style: italic;
+font-weight: 100;
+line-height: 26px;
+letter-spacing: -0.48px;
+}
+
+.section-4 .right-section ul li div h5 {
+    color: var(--gray, #66645E);
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: -0.32px;
+}
+/* section 4 */
