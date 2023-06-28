@@ -858,5 +858,118 @@ margin: 16px;
 /* section 10 */
 
 /* section 11 */
+.section-11 {
+    /* display: flex;
+width: 1328px;
+justify-content: center;
+align-items: center;
+gap: 40px; */
+
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    gap: 400px;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.section-11 .left-section {
+    width: 644px;
+height: 244px;
+flex-shrink: 0;
+margin-top: 130px;
+
+}
+
+.section-11 .left-section h2 {
+    display: flex;
+width: 644px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--black, #303031);
+font-size: 48px;
+font-family: Roboto;
+font-weight: 800;
+line-height: 64px;
+}
+
+.section-11 .left-section p {
+    display: flex;
+width: 644px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--black, #303031);
+font-size: 18px;
+font-family: Roboto;
+line-height: 26px;
+letter-spacing: -0.36px;
+}
+
+.section-11 .left-section a {
+    display: inline-flex;
+padding: 20px 24px;
+align-items: center;
+border-radius: 8px;
+background: #71A894;
+
+color: var(--white, #FFF);
+font-size: 18px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 24px;
+text-decoration: none;
+}
+
+.section-11 img {
+    width: 644px;
+height: 361px;
+flex-shrink: 0;
+}
 
 /* section 11 */
+
+
+/* section 12 */
+.section-12 {
+    display: inline-flex;
+padding: 6px 0px 4px 0px;
+justify-content: center;
+align-items: center;
+gap: 700px;
+padding-bottom: 2%;
+}
+
+.section-12 .left-section {
+    color: var(--black, #303031);
+font-size: 24px;
+font-family: Open Sans;
+font-weight: 700;
+letter-spacing: -0.96px;
+}
+
+.section-12 .right-section ul {
+    display: flex;
+align-items: center;
+gap: 40px;
+}
+
+.section-12 .right-section ul li a {
+    color: var(--black, #303031);
+font-size: 20px;
+font-family: Roboto;
+font-weight: 500;
+letter-spacing: -0.4px;
+text-decoration: none;
+}
+
+.section-12 .right-section ul .special a {
+    color: var(--green, #71A894);
+font-size: 20px;
+font-family: Roboto;
+font-weight: 700;
+letter-spacing: -0.4px;
+}
+/* section 12 */
