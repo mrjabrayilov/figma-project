@@ -213,9 +213,7 @@ header {
 }
 
 
-.section-4 .left-section {
-    
-}
+
 
 .section-4 .left-section img {
     width: 80px;
@@ -253,7 +251,17 @@ flex-shrink: 0;
 border-radius: 16px;
 border: 4px solid var(--black, #303031);
 background: var(--white, #FFF);
-padding: 2%;
+padding: 2% 3% 4% 3%;
+}
+
+.section-4 .right-section h2 {
+    color: var(--black, #303031);
+font-size: 32px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.64px;
+padding-top: 0px;
 }
 
 .section-4 .right-section img {
@@ -289,3 +297,68 @@ line-height: 26px;
 letter-spacing: -0.32px;
 }
 /* section 4 */
+
+
+/* section 5 */
+.section-5 {
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+.section-5 .left-section {
+    width: 484px;
+height: 412px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 4px solid var(--black, #303031);
+background: var(--white, #FFF);
+}
+
+.section-5 .left-section img {
+    width: 117px;
+height: 110px;
+flex-shrink: 0;
+border-radius: 50%;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.section-5 .left-section li {
+    display: flex;
+    align-items: center;
+}
+
+.section-5 .left-section li h2 {
+    color: var(--black, #303031);
+font-size: 24px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.48px;
+}
+
+.section-5 .left-section .head p {
+    color: var(--gray, #66645E);
+font-size: 16px;
+font-family: Roboto;
+font-style: italic;
+font-weight: 100;
+line-height: 24px;
+letter-spacing: -0.32px;
+}
+
+.section-5 .left-section .middle p {
+    display: flex;
+width: 404px;
+flex-direction: column;
+flex-shrink: 0;
+color: var(--black, #303031);
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.32px;
+}
+/* section 5 */
